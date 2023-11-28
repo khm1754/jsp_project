@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>책 정보 입력 페이지</title>
+</head>
+<body>
+
+<form method="post" action="Book_insert.jsp" enctype="multipart/form-data">
+수업 명: <input type="text" name="fClass_Name"><br>
+책 이름: <input type="text" name="fBook_Name"><br>
+출판사: <input type="text" name="fPublish"><br>
+저자: <input type="text" name="fAuthor"><br>
+가격: <input type="text" name="fPrice"><br>
+학과:
+<select name = "fDept">
+   <option value = "컴퓨터공학부">컴퓨터공학부</option>
+   <option value = "사범학부">사범학부</option>
+   <option value = "기독교학부">기독교학부</option>
+   <option value = "경찰학부">경찰학부</option>
+   <option value = "경상학부">경상학부</option>
+   <option value = "관광학부">관광학부</option>
+   <option value = "첨단IT학부">첨단IT학부</option>
+   <option value = "간호학부">간호학부</option>
+   <option value = "보건학부">보건학부</option>
+   <option value = "사회복지학부">사회복지학부</option>
+   <option value = "어문학부">어문학부</option>
+   <option value = "문화예술학부">문화예술학부</option>
+   <option value = "디자인영상학부">디자인영상학부</option>
+   <option value = "혁신융합학부">혁신융합학부</option>
+   <option value = "교양">교양</option>
+</select>
+<br>
+책 소개: <input type="text" name="fBook_Info"><br>
+재고: <input type="text" name="fBook_Num"><br>
+사진첨부: <input type="file" name="Book_Image"><br>
+<input type="submit" value="입 력">
+<input type="reset" value="취 소">
+
+</form>
+
+</body>
+</html>
